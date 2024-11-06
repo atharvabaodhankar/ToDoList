@@ -1,0 +1,93 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+
+html{
+font-size: 62.5%;
+}
+
+
+p{
+font-size: 1.6rem;
+line-height: 2.5rem;
+}
+
+body{
+  background-color: #242424;
+  color: #fff;
+}
+.heading{
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 4vw;
+}
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin: 3rem 0;
+}
+.section input{
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  border: none;
+}
+.section button{
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.container{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin : 0 auto;
+}
+.box{
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h1{
+    font-size: 2rem;
+    color: #242424;
+  }
+}
+.box button{
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.box button:hover {
+  background-color: #ff6666;
+}
+
+@media screen and (max-width: 600px) {
+  .heading{
+    font-size: 8vw;
+  }
+  .section{
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
